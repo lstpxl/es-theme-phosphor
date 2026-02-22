@@ -1,5 +1,7 @@
 # Green Phosphor CRT Theme
 
+![Systems view screenshot](_inc/screenshots/systems.png)
+
 `es-theme-phosphor`
 
 Specially tuned for a 640×480 screen and the **Anbernic RG353V** running [dArkOS](https://github.com/christianhaitian/dArkOS).
