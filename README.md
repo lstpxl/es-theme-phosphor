@@ -1,6 +1,6 @@
 # Green Phosphor CRT Theme
 
-<img width="640" height="480" alt="Systems view screenshot" src="https://github.com/lstpxl/es-theme-phosphor/blob/main/_inc/screenshots/systems.png" />
+![Screenshot](_inc/screenshots/systems.png)
 
 `es-theme-phosphor`
 
