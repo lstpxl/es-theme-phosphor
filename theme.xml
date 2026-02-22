@@ -1,0 +1,271 @@
+<!--
+fork by:        lstpxl
+theme name:		CRT
+version:		0.1
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme defaultView="grid">
+
+	<formatVersion>7</formatVersion>
+
+	<view name="screen">
+
+		<image name="crt_texture" extra="true">
+			<path>./_inc/images/crt-texture.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<tile>true</tile>
+			<color>FFFFFF50</color>
+			<zIndex>1</zIndex>
+		</image>
+
+		<batteryIndicator name="batteryIndicator">
+			<pos>0.85 0.002</pos>
+			<size>0.08</size>
+			<color>009010</color>
+			<itemSpacing>0.01</itemSpacing>
+			<at25>./_inc/battery/at25.svg</at25>
+			<at50>./_inc/battery/at50.svg</at50>
+			<at75>./_inc/battery/at75.svg</at75>
+			<empty>./_inc/battery/empty.svg</empty>
+			<full>./_inc/battery/full.svg</full>
+			<incharge>./_inc/battery/incharge.svg</incharge>
+		</batteryIndicator>
+		
+	</view>
+
+	<view name="system">
+
+		<image name="solid_bar" extra="true">
+			<path>./_inc/images/white-16x16.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<tile>true</tile>
+			<color>002e00ff</color>
+			<zIndex>0</zIndex>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>009010</textColor>
+			<iconColor>009010</iconColor>
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+			<pos>0.05 0.96</pos>
+			<size>1 0.04</size>
+			<alignment>center</alignment>
+		</helpsystem>
+
+		<carousel name="systemcarousel">
+			<color>00000000</color>
+			<logoSize>0.3 0.375</logoSize>
+			<maxLogoCount>2</maxLogoCount>
+		</carousel>
+
+		<image name="logo">
+			<path>./_inc/logos/${system.theme}.png</path>
+			<path>./_inc/logos/${system.theme}.svg</path>
+			<zIndex>20</zIndex>
+		</image>
+
+		<text name="logoText">
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+			<color>b0ffb0</color>
+			<forceUppercase>0</forceUppercase>
+		</text>
+
+		<text name="systemInfo">
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<fontSize>0.028</fontSize>
+			<color>009010</color>
+			<pos>0 0.74</pos>
+			<size>1 0.05</size>
+			<alignment>center</alignment>
+			<zIndex>50</zIndex>
+		</text>
+
+	</view>
+
+	<view name="basic">
+
+		<helpsystem name="help">
+			<textColor>009010</textColor>
+			<iconColor>009010</iconColor>
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<fontSize>0.018</fontSize>
+			<pos>0.05 0.96</pos>
+			<size>1 0.04</size>
+			<alignment>center</alignment>
+		</helpsystem>
+
+		<ninepatch name="solid_bar" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>:/frame.png</path>
+			<color>002e00ff</color>
+			<zIndex>0</zIndex>
+		</ninepatch>
+
+		<image name="logo">
+			<!-- <path>./_inc/logos/xplus4.png</path> -->
+			<path>./_inc/logos/${system.theme}.png</path>
+			<path>./_inc/logos/${system.theme}.svg</path>
+			<origin>0.5 0</origin>
+			<pos>0.5 0.08</pos>
+			<maxSize>0.9 0.16</maxSize>
+		</image>
+
+		<text name="logoText">
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+			<color>b0ffb0</color>
+			<forceUppercase>0</forceUppercase>
+			<alignment>center</alignment>
+			<pos>0.05 0.10</pos>
+			<size>0.9 0.1</size>
+		</text>
+
+		<textlist name="gamelist">
+			<selectorColor>005000</selectorColor>
+			<selectedColor>00ff00</selectedColor>
+			<primaryColor>00ff30</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<pos>0 0.26</pos>
+			<size>1 0.68</size>
+			<fontSize>0.04</fontSize>
+		</textlist>
+
+	</view>
+
+	<view name="detailed, video">
+
+		<helpsystem name="help">
+			<textColor>009010</textColor>
+			<iconColor>009010</iconColor>
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<fontSize>0.018</fontSize>
+			<pos>0.05 0.96</pos>
+			<size>1 0.04</size>
+			<alignment>center</alignment>
+		</helpsystem>
+
+		<ninepatch name="solid_bar" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>:/frame.png</path>
+			<color>002e00ff</color>
+			<zIndex>0</zIndex>
+		</ninepatch>
+
+		<image name="logo">
+			<path>./_inc/logos/${system.theme}.png</path>
+			<path>./_inc/logos/${system.theme}.svg</path>
+			<origin>0.5 0</origin>
+			<pos>0.5 0.08</pos>
+			<maxSize>0.9 0.16</maxSize>
+		</image>
+
+		<text name="logoText">
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+			<color>b0ffb0</color>
+			<forceUppercase>0</forceUppercase>
+			<alignment>center</alignment>
+			<pos>0.05 0.10</pos>
+			<size>0.9 0.1</size>
+		</text>
+
+		<textlist name="gamelist">
+			<selectorColor>005000</selectorColor>
+			<selectedColor>00ff00</selectedColor>
+			<primaryColor>00ff30</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<pos>0.50 0.26</pos>
+			<size>0.50 0.68</size>
+			<fontSize>0.04</fontSize>
+		</textlist>
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_name">
+			<visible>false</visible>
+		</text>
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<visible>false</visible>
+		</datetime>
+
+		<rating name="md_rating">
+			<visible>false</visible>
+		</rating>
+
+		<text name="md_description">
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<fontSize>0.020</fontSize>
+			<color>90d090</color>
+			<pos>0.03 0.67</pos>
+			<size>0.45 0.25</size>
+		</text>
+
+		<image name="md_image">
+			<origin>0 0</origin>
+			<pos>0.03 0.28</pos>
+			<maxSize>0.45 0.36</maxSize>
+		</image>
+
+		<video name="md_video">
+			<origin>0 0</origin>
+			<pos>0.03 0.26</pos>
+			<size>0.45 0.36</size>
+		</video>
+
+	</view>
+
+	<view name="menu">
+
+		<helpsystem name="help">
+			<textColor>009010</textColor>
+			<iconColor>009010</iconColor>
+			<fontPath>./_inc/fonts/pixelate.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+		</helpsystem>
+
+		<menuBackground name="menubg">
+			<color>002e00ff</color>
+		</menuBackground>
+
+		<menuText name="menutitle">
+			<fontPath>./_inc/fonts/flexi.ttf</fontPath>
+			<fontSize>0.0395</fontSize>
+			<color>00ff40</color>
+			<selectedColor>b0ffb0</selectedColor>
+			<selectorColor>003800</selectorColor>
+			<separatorColor>005000</separatorColor>
+		</menuText>
+
+		<menuText name="menutext">
+			<fontPath>./_inc/fonts/flexi.ttf</fontPath>
+			<fontSize>0.0375</fontSize>
+			<color>00ff40</color>
+			<selectedColor>000000</selectedColor>
+			<selectorColor>70ff70</selectorColor>
+			<selectorColorEnd>70ff70</selectorColorEnd>
+			<separatorColor>005000</separatorColor>
+		</menuText>
+
+		<menuText name="menufooter">
+			<fontPath>./_inc/fonts/flexi.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<color>00d030</color>
+		</menuText>
+
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./_inc/fonts/flexi.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<color>00d030</color>
+		</menuTextSmall>
+
+	</view>
+
+</theme>
