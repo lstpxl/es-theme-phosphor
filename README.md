@@ -1,6 +1,6 @@
 # Green Phosphor CRT Theme
 
-![Systems view screenshot](_inc/screenshots/systems.png)
+<img width="640" height="480" alt="Systems view screenshot" src="_inc/screenshots/systems.png" />
 
 `es-theme-phosphor`
 
